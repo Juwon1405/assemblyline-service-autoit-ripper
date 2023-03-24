@@ -1,5 +1,5 @@
 name: AutoItRipper
-version: 4.3.0.stable1
+version: 4.4.0.stable2
 description: Extract AutoIt scripts embedded in PE binaries
 
 accepts: executable/windows/.*
@@ -24,6 +24,6 @@ heuristics:
     description: AutoIt script extracted from a PE file
 
 docker_config:
-  image: ghcr.io/nvisosecurity/assemblyline-service-autoit-ripper:main
+  image: ghcr.io/stevend33/assemblyline-service-autoit-ripper:main
   cpu_cores: 1
   ram_mb: 256
